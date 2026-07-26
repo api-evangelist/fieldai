@@ -1,8 +1,32 @@
 aid: fieldai
-name: Fieldai
-description: Fieldai is a company surfaced as a portfolio company of khosla-ventures and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+name: Field AI
+description: >-
+  Field AI is a physical-AI robotics company founded in 2023 and based in Mission
+  Viejo, California, building Field Foundation Models (FFMs) — a class of risk-aware,
+  embodied AI that gives general-purpose robots a single "brain" (marketed as EDGE)
+  that works across many robots, tasks, and unstructured real-world environments.
+  Its Belief World Model reasons under uncertainty and runs entirely on the edge,
+  without pre-built maps, GPS, or pre-programmed paths, integrating vision, LiDAR,
+  and other multimodal sensor data. Field AI has production deployments across three
+  continents and serves construction, urban operations, industrial and energy,
+  federal/government, manufacturing, mining, power and utility, and agriculture,
+  with partnerships including Boston Dynamics, NVIDIA (Omniverse), and Certis. The
+  company is backed by Khosla Ventures. This API Evangelist profile tracks Field AI
+  as a network company; the enrichment pipeline found no public developer API,
+  OpenAPI, SDK, or documentation surface as of this pass.
 url: https://raw.githubusercontent.com/api-evangelist/fieldai/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/66f60ba0b55a2bf61129d179/69b89203d689c58d5fac30e2_FAI_open-graph.jpg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,9 +35,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Robotics
+- Artificial Intelligence
+- Autonomous Systems
+- Physical AI
+- Foundation Models
+- Machine Learning
+- Automation
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +52,20 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/fieldai-domain-security.yml
 - type: Website
-  url: https://fieldai.com/
+  url: https://www.fieldai.com/
+- type: Blog
+  url: https://www.fieldai.com/news
+- type: Support
+  url: https://www.fieldai.com/contact
+- type: TermsOfService
+  url: https://www.fieldai.com/terms-of-use
+- type: PrivacyPolicy
+  url: https://www.fieldai.com/privacy-policy
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
